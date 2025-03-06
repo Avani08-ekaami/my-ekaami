@@ -1,0 +1,50 @@
+/* Sidebar Start */
+
+/* Sidebar styling */
+.sidebar {
+    width: 300px;
+    overflow-y: auto;
+  }
+  .sidebar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .sidebar::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+  .menu{
+    display: block;
+    width: 100%;
+    padding: 20px;
+  }
+  .menu ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .menu ul li a{
+    display: block;
+    font-size: 16px;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+  .title{
+    text-align: center;
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 10px 15px;
+  }
+  .table{
+    border: 2px solid #000;
+  }
+  .table tr th, .table tr td{
+    font-size: 14px;
+    padding: 6px 6px;
+  }
+  .form{
+    padding: 30px;
+  }
+  
+  
+/* Sidebar End */

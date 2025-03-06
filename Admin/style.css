@@ -1,0 +1,49 @@
+.sidebar {
+    width: 250px; /* Fixed width */
+    height: 100vh; /* Full viewport height */
+    position: fixed; /* Fixed position */
+    top: 15px;
+    left: 30px;
+    overflow-y: auto; /* Scroll if content overflows */
+    padding: 15px;
+    background-color: #88b8b0;
+}
+.sidebar h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+.sidebar .nav-link {
+    padding: 10px;
+    border-radius: 5px;
+}
+.logout-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.justchek{
+    color: black;
+}
+.btn1{
+    background-color: #f1ede9;
+}
+.btn1:hover{
+    background-color: #f1ede9;
+}
+.btn2{
+    background-color: #88b8b0;
+    color: black;
+}
+.btn2:hover{
+    background-color: #f1ede9;
+}
+.bttn{
+    background-color: #88b8b0;
+    color: black;
+}
+.bttn:hover{
+    background-color: #88b8b0;   
+}
+

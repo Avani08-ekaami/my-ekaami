@@ -1,0 +1,907 @@
+/*// IT IS INDEX PAGE  //*/
+/* Common Body Styling */
+.mainbody {
+  background-color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  margin: 0;
+}
+
+/* For NavBar */
+.navbar {
+  background-color: whitesmoke;
+  height: 150px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+@media(max-width: 991px){
+}
+@media(max-width: 991px){
+}
+@media(max-width: 576px){
+  .navbar {
+    width: 100%;
+    height: AUTO;
+  }
+}
+
+.LOGO {
+  height: 130px;
+  width: 130px;
+}
+
+.navbar-brand {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  text-align: center;
+  flex-grow: 1;
+  background-color: whitesmoke;
+}
+
+.navbar-brand small {
+  display: block;
+  font-size: 0.8rem;
+  background-color: whitesmoke;
+}
+
+.navbar-nav a {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: whitesmoke;
+}
+
+.social-icons a {
+  position: relative;
+  color: #333;
+  font-size: 1.2rem;
+  margin-left: 40px;
+  background-color: whitesmoke;
+}
+
+.btn-consultation {
+  background-color: #88b8b0;
+  color: white;
+  border: none;
+}
+
+.btn-consultation:hover {
+  background-color: #6a9b94;
+}
+
+/* For BIG MAIN Image */
+.imgmn {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.container-relative {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 500px;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* TEXT ANIMATION */
+.slide-down {
+  animation: slideDown 2s ease-in-out;
+}
+
+@keyframes slideDown {
+  from {
+      transform: translateY(0);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+/* ABOUT US */
+.fade-in-text {
+  animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+/* For What we bring */
+.custom-section {
+  padding: 60px 0;
+  background-color: white;
+}
+
+.imgpn {
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  width: 450px;
+  height: 580px;
+}
+
+.accordion-button {
+  background-color: transparent;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+  border: none;
+  padding-left: 0;
+  box-shadow: none;
+  background-color: white;
+}
+
+.accordion-item {
+  border: none;
+  padding: 0;
+  background-color: white;
+}
+
+.accordion-body {
+  font-size: 0.95rem;
+  color: #555;
+  border-top: none;
+  background-color: white;
+}
+
+.btn-outline-dark {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+/* For Review */
+.container-review {
+  position: relative;
+  width: 100%;
+}
+
+.content-over-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.review-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.review-date {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.review-link {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+}
+
+.review-link:hover {
+  text-decoration: underline;
+}
+
+.review-text {
+  font-size: 0.9rem;
+  color: #212529;
+  margin-bottom: 10px;
+}
+
+.review-author {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #6c757d;
+}
+
+.leave-review:hover {
+  background: white;
+}
+
+
+/* Get in touch in index page */
+.form-container {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.form-container img {
+  height: auto;
+}
+
+.form-container .form-content {
+  padding: 5rem;
+}
+
+.form-container .form-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.form-container .form-content p {
+  font-size: 1.25rem;
+}
+
+.form-container .form-content .btn {
+  background-color: #88b8b0;
+  color: white;
+}
+
+.form-container .form-content .btn:hover {
+  background-color: #88b8b0;
+}
+
+
+
+
+
+/* ....HERE THE STARTING OF THE ABOUT-US PAGE.... */
+/* ABOUT TEAM MEMBER CSS */
+.image-containerr {
+  margin: 20px 0;
+}
+
+.image-container2 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.image-container p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.custom-rounded {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+
+/* CONNECT ( GET IN TOUCH) CSS ( ABOUT US PAGE (GET IN TOUCH) */
+.custom-section {
+  background-color: #88b8b0;
+  /* padding: 80px 0; */
+  /* min-height: 100vh; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 10px; */
+}
+
+.content-box {
+  background-color: white;
+  padding: 100px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 120px;
+  /* border-radius: 10px; */
+
+}
+
+.text-connect {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.text-main {
+  font-size: 32px;
+  font-weight: 400;
+  color: #88b8b0;
+  line-height: 1.4;
+}
+
+.btn-custom {
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+}
+
+.btn-custom:hover {
+  background-color: #333;
+}
+/* .connect_sec{
+  position: relative;
+  background-color: #6a9b94;
+  padding: 50px 0;
+} */
+
+.image-box {
+  max-width: 500px;
+  text-align: center;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* IT IS PORTFOLIO PAGE */
+/* First main image */
+.text-container34 {
+  text-align: center;
+  padding: 50px 20px;
+  width: 100%;
+  justify-content: center;
+  background-color: white; /* Light background */
+  font-family: "Georgia", serif;
+  text-align: center;
+}
+.main-text34 {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.sub-text {
+  font-size: 1.2rem;
+  color: #333;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* First main image /*/
+
+/* GALLERY SLIDES */ 
+.carousel-inner {
+  display: flex;
+}
+.carousel-item {
+  display: flex; 
+  transition: transform 0.5s ease-in-out;
+}
+.carousel-item img {
+  /* width: 100%; */
+  height: auto;
+  border-radius: 10px;
+}
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+}
+.image-wrapper {
+  display: flex;
+  gap: 10px;
+}
+/* GALLERY */
+.gallery-img {
+  height: 400px; /* Set equal height */
+  object-fit: cover; 
+}
+/* writing */
+.containeri {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  justify-content: center;
+}
+.socialiconss a {
+  font-size: 40px;
+  color: black;
+  margin-right: 15px;
+}
+.contact-btn {
+  background-color: #88b8b0;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  width: 250px;
+  height: 50px;
+}
+.contact-btn:hover {
+  background-color: #8ea89a;
+}
+.imgg{
+  height: 450px;
+  width: 300px;
+  justify-content: center;
+}
+/*////// PORTFOLIO PAGE ////////*/
+/* PORTFOLIO 1 IMAGES !!!!!!!! */
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* PORTFOLIO 1 IMAGES !!!!!!!! */
+
+
+
+/*/// FEEDBACK PAGE WORK START ///*/
+.feedback-form {
+  width: 70%;
+  background: #ffffff;
+  padding: 30px;
+  /* border-radius: 8px; */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  background: linear-gradient(to bottom, #adccd0, #88b8b0); /* Light to Dark Gradient */
+  font-family: 'Arial', sans-serif;
+}
+
+.feedback-form h2 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.form-control, .form-select {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Star Rating Styling */
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  font-size: 30px;
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating label {
+  color: black;
+  cursor: pointer;
+}
+
+.star-rating input:checked ~ label {
+  color: darkcyan;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: darkcyan;
+}
+.btn-primary {
+  background-color: darkcyan;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  transition: 0.3s;
+  /* width: 10px; */
+  
+}
+
+.btn-primary:hover {
+  background-color: #2B2B2B;
+}
+/*/// FEEDBACK PAGE WORK START ///*/
+
+
+
+
+/* IT IS PAGE OF CONTACT US */
+.image-containerie {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.image-containerie img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlayy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.5);  */
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  /* background-color: rgba(255, 255, 255, 0.4); */
+}
+.contact-textt {
+  color: black;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* FORM */
+.container-box {
+  display: flex;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100vh; 
+}
+.contact-section {
+  background: #f1ede9;
+  padding: 30px;
+  border-radius: 10px;
+  width: 40%;
+}
+.form-section {
+  padding: 30px;
+  width: 60%;
+}
+.socialy-icons a{
+  color: black;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/* map */
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+.map-image {
+  width: 100%;
+  height: 100%;
+}
+.overlay-link {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: black;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+/* CONTACT US PAGE FINISH */
+
+
+
+
+/*// BOOK CONSULTATION //*/
+.just_write{
+  background-color: #f9f5ed;
+  font-weight: bold;
+}
+.containeri {
+  max-width: 800px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.form-check-label {
+  margin-right: 15px;
+}
+.headerr {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.header img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+.header h2 {
+  font-weight: bold;
+}
+/*// FINISH BOOK CONSULTATION//*/
+
+
+
+
+/* START WORKING ON SERVICE PAGE. */
+/* .containero {
+  text-align: center;
+  padding: 50px 20px;
+}
+h2 {
+  font-family: serif;
+  font-weight: bold;
+  color: #003366;
+}
+p {
+  color: #333;
+  font-size: 18px;
+  max-width: 900px;
+  margin: auto;
+}
+.highlight {
+  color: #88b8b0;
+  font-weight: bold;
+}
+.image-galleryy img {
+  width: 280px;
+  height: 350px;
+} */
+/*// START WORKING ON SERVICE PAGE. //*/
+
+
+/* SERVICE PAGE - WHAT WE OFFER */
+.offer-section {
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+.offer-overlay {
+  background-color: #88b8b0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.offer-content {
+  position: relative;
+  z-index: 2;
+}
+.offer-card {
+  background: rgba(255, 255, 255, 0.2);
+  
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+.forh1{
+  font-size: 50px;
+  margin: 20px;
+  padding: 20px;
+  margin-bottom: 3%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.forh5{
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+/*  */
+
+
+
+/* OUR PROCESS */
+.process-section {
+  background-color:white;
+  padding: 50px 0;
+  text-align: center;
+  font-family: 'Georgia', serif;
+}
+.cta-section {
+  position: relative;
+  background: url('your-background-image.jpg') center/cover no-repeat;
+  color: #2B2B2B;
+  text-align: center;
+  padding: 80px 20px;
+}
+.cta-overlay {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 50px;
+}
+.btn-cta {
+  background-color:  #88b8b0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.btn-cta:hover {
+  background-color:  #88b8b0;
+}
+/* OUR PROCESS DONE */
+
+/*  */
+/* .containerrie {
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+}
+.contentii {
+  color: #2c2c2c;
+}
+.contentii h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.contentii p {
+  font-size: 16px;
+}
+.contentii i {
+  font-style: italic;
+}
+.imageii img {
+  border-radius: 8px;
+  width: 100%;
+} */
+
+/* HEADING (SERVICE PAGE) */
+.heading-containerp {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #f8f6f3;
+}
+.heading-containerp h1 {
+  font-size: 42px;
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+}
+.heading-containerp p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+}
+/*/ FINISH /*/
+
+
+/*  */
+.accordion-buttonn {
+  background-color: #f8f6f3;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  /* background-color: #f8f6f3; */
+}
+.accordion-buttonn:focus {
+  box-shadow: none;
+}
+.accordion-bodyn {
+  background-color: #f8f6f3;
+}
+
+
+/* MEDIA */
+/* @media(max-width: 991px){
+}
+@media(max-width: 991px){
+}
+@media(max-width: 576px){
+  .imgpn {
+    width: 100%;
+    height: AUTO;
+  }
+  .form-container .form-content {
+    padding: 1rem;
+}
+.form-container .form-content h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.custom-section{
+  width: 100%;
+}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ....IT IS FOR FOOTER.... */
+/* Footer */
+footer {
+  text-align: center;
+  padding: 40px 0;
+  background-color: whitesmoke;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  font-size: 24px;
+  margin: 0 15px;
+  color: black;
+}
+
+.social-icons a:hover {
+  color: black;
+}
+
+.back-to-top {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.back-to-top i {
+  display: block;
+  font-size: 20px;
+}
+
+.footer-nav a {
+  font-size: 14px;
+  margin: 0 15px;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  font-size: 12px;
+  color: black;
+}
+/* ....IT IS FOR FOOTER.... */
